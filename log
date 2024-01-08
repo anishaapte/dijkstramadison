@@ -1,0 +1,72 @@
+Script started on Thu Nov 23 20:56:36 2023
+[1m[7m%[27m[1m[0m                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code2/p2[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p2 % [K[?2004hggit status[?2004l
+On branch frontend
+Your branch is up to date with 'origin/frontend'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code2/p2[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p2 % [K[?2004hggit log -1[?2004l
+[?1h=[33mcommit 2c707c156db47bf4804dfc8b79b84807598ddcb4[m[33m ([m[1;36mHEAD -> [m[1;32mfrontend[m[33m, [m[1;31morigin/fronte[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mnd[m[33m)[m[m
+Author: Anisha Apte <aaapte@wisc.edu>[m
+Date:   Thu Nov 23 20:55:18 2023 -0600[m
+[m
+    added Makefile[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code2/p2[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p2 % [K[?2004hmmake clean[?2004l
+rm *.class
+[1m[7m%[27m[1m[0m                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code2/p2[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p2 % [K[?2004hlls[?2004l
+BackendInterface.java		Makefile
+BackendPlaceholder.java		MapADT.java
+BaseGraph.java			PathResult.java
+DijkstraGraph.java		PlaceholderMap.java
+Frontend.java			TextUITester.java
+FrontendDeveloperTests.java	campus.dot
+FrontendInterface.java		log
+GraphADT.java
+[1m[7m%[27m[1m[0m                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code2/p2[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p2 % [K[?2004hmmake runFDTests[?2004l
+javac -cp .:../junit5.jar Frontend.java
+javac -cp .:../junit5.jar TextUITester.java
+javac -cp .:../junit5.jar FrontendDeveloperTests.java
+java -jar ../junit5.jar -cp . -c FrontendDeveloperTests
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  └─[0m [36mFrontendDeveloperTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtestDisplayMainMenu()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestShortestPathNotReachable()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestShortestPathInvalidNode()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestShortestPathSameNode()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestLoadStatsWithFile()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestShortestPathValid()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestLoadInvalidFile()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestLoadStatsWithoutFile()[0m [32m✔[0m
+[36m│     └─[0m [34mtestLoadValidFile()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Test run finished after 114 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         9 tests found           ]
+[         0 tests skipped         ]
+[         9 tests started         ]
+[         0 tests aborted         ]
+[         9 tests successful      ]
+[         0 tests failed          ]
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://anishas-MacBook-Pro.local/Users/anishaapte/code2/p2[0m[27m[24m[Janishaapte@anishas-MacBook-Pro p2 % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Thu Nov 23 20:57:14 2023
